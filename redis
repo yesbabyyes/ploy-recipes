@@ -1,0 +1,5 @@
+VERSION=2.4.1
+PACKAGE_NAME=redis-$VERSION
+URL=http://redis.googlecode.com/files/$PACKAGE_NAME.tar.gz
+INSTALLED="redis-server --version"
+INSTALL="make && make test && sudo make install"
