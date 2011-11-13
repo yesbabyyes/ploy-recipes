@@ -2,4 +2,4 @@ VERSION=v0.4.12
 PACKAGE_NAME=node-$VERSION
 URL=http://nodejs.org/dist/$PACKAGE_NAME.tar.gz
 INSTALLED="node --version"
-INSTALL="./configure && make && make test && sudo make install"
+INSTALL="./configure && make && make test && sudo make install && curl http://npmjs.org/install.sh | sudo sh"
